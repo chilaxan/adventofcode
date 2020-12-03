@@ -1,11 +1,9 @@
 def s(a,b):
     s = open('input').read().strip().split('\n')
-    for i in range(len(s)):
-        s[i] = s[i]*1000
     x,y=0,0
     ans = 0
-    while x < len(s[0]) and y < len(s):
-        if s[y][x] == '#':
+    while y < len(s):
+        if s[y][x%len(s[0])] == '#':
             ans += 1
         x += a
         y += b
