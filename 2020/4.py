@@ -1,0 +1,1 @@
+s = open('input').read().strip()
