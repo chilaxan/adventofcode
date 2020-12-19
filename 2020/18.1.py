@@ -1,4 +1,3 @@
-
 def ev(s):
     ans = -1
     chars = s.split()

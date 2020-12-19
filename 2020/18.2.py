@@ -1,4 +1,3 @@
-
 def ev(s):
     chars = s.split()
     i =  0
